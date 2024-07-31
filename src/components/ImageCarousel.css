@@ -1,0 +1,36 @@
+.carousel-container {
+  width: 60%; /* Ajusta este valor según tus necesidades */
+  max-width: 900px; /* Ancho máximo del carrusel */
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative; /* Asegura que el carrusel se posicione correctamente */
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Ajustes adicionales para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .slick-slide img {
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .slick-slide img {
+    border-radius: 3px;
+  }
+}

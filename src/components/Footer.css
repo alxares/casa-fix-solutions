@@ -1,0 +1,81 @@
+.footer {
+    background-color: white;
+    color: #1b2e4b; /* Color del texto basado en el color del logo */
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo img {
+    max-width: 150px;
+  }
+  
+  .footer-links {
+    text-align: left;
+  }
+  
+  .footer-links h4, .footer-contact h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1b2e4b; /* Color del texto basado en el color del logo */
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links ul li a {
+    color: #1b2e4b; /* Color del texto basado en el color del logo */
+    text-decoration: none;
+  }
+  
+  .footer-links button {
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-links button:hover {
+    background-color: #2980b9;
+  }
+  
+  .footer-contact {
+    text-align: left;
+    color: #1b2e4b; /* Color del texto basado en el color del logo */
+  }
+  
+  .footer-social a {
+    color: #1b2e4b; /* Color del texto basado en el color del logo */
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  
+  .footer-social a:hover {
+    color: #3498db;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #1b2e4b; /* Color del texto basado en el color del logo */
+  }
+  
