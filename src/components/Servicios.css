@@ -1,0 +1,84 @@
+.servicios {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff; /* Asegura que el fondo sea blanco */
+}
+  
+.servicios h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+  
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Asegura que haya 3 columnas en desktop */
+    gap: 20px;
+}
+
+.servicio-item {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+    text-align: center;
+}
+  
+.servicio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.servicio-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+  
+.servicio-item p {
+    margin-top: 10px;
+    color: white;
+}
+  
+.icono {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Colores específicos para cada servicio */
+.servicio-limpieza {
+    background: linear-gradient(to bottom right, #00c6ff, #0072ff); /* Blanco con celeste */
+}
+
+.servicio-reparaciones {
+    background: linear-gradient(to bottom right, #8B4513, #A0522D); /* Marrón amaderado */
+}
+
+.servicio-plomeria {
+    background: linear-gradient(to bottom right, #1f4037, #99f2c8); /* Verde */
+}
+
+.servicio-aire {
+    background: linear-gradient(to bottom right, #4ac9e6, #3a7bd5); /* Celeste a azul */
+}
+
+.servicio-pintura {
+    background: linear-gradient(to bottom right, #eb8846, #be331a); /* Naranja con rojo */
+}
+
+.servicio-jardineria {
+    background: linear-gradient(to bottom right, #00b02c, #96c93d); /* Verde */
+}
+
+/* Media queries para responsive design */
+@media (max-width: 768px) {
+    .servicios-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .servicios-grid {
+        grid-template-columns: 1fr; /* 1 columna en móvil */
+    }
+}

@@ -17,16 +17,13 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="/logo1.png" alt="Casa Fix Solutions Logo" />
+        <img src="/logo1.png" alt="Casa Fix Solutions Logo" className="navbar-logo-img" />
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Inicio</Link></li>
         <li><Link to="/servicios">Servicios</Link></li>
       </ul>
-      <div className="navbar-actions">
-        <Link to="/solicitar-servicio" className="navbar-button">Solicitar Servicio</Link>
-        <Link to="/ofrecer-servicio" className="navbar-button">Ofrecer Servicio</Link>
-      </div>
+      
       <div className="navbar-social">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
